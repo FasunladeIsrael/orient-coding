@@ -1,0 +1,1 @@
+alert("Welcome! You are viewing the about us page");            

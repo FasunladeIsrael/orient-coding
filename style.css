@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(223, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about_body {
+    padding: 60px;
+    background-color: blue;
+    color: white;
+}
+
+.programing-languages {
+    border-radius: 20px;
+    border: 4px solid orange;
+}
+
+.project-link {
+    color: white;
+}
+
+img {
+    width: 400px;
+}
+
+.students {
+    border-radius: 20px;
+    border: 4px solid #ffffff;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 500px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 18px; 
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.start-btn {
+    background-color: #3e6ff6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: .5s all ease;
+}
+
+
+/* STYLING FOR OUR VIDEO PAGE STARTS HERE */
+.video-container {
+    width: 900px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.video-container h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 1px 3px 15px rgba(0,0,0,0.2);
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+.videos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.video {
+    width: 45%;
+    margin: 20px;
+}
+
+
+/* Application State Indicator */
+
+.indicator {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: red;
+    transition: .7s all ease-in;
+}
